@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Google Service API AIzaSyCbuC5dqlCLPnyMsKtABimfTMABD8jznak
     private final String KEY = "AIzaSyCbuC5dqlCLPnyMsKtABimfTMABD8jznak";
-    YouTubePlayerView view;
-    YouTubePlayer.OnInitializedListener listener;
+    private YouTubePlayerView view;
+    private YouTubePlayer.OnInitializedListener listener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
